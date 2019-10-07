@@ -21,6 +21,10 @@
     position: relative;
 }
 
+.block-content-wrapper {
+    padding: 110px 0 140px;
+}
+
 .first-screen,
 .top-menu,
 .about-us,
@@ -36,6 +40,7 @@
     height: 100vh;
     flex-direction: column;
     background-image: url(../assets/about_us_bg.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -63,6 +68,56 @@
     align-items: center;
     padding: 40px 16px;
 }
+
+.about-us {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us_content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 200px;
+    height: 45px;
+    background-color: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+}
+
+.about-us_content {
+    width: 100%;
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us_title {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.about-us_subtitle {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+
 
 @media (min-width: 1024px){
     .top-menu_list-item {
